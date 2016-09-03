@@ -1,0 +1,21 @@
+==23409== Memcheck, a memory error detector
+==23409== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==23409== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==23409== Command: ./ej2 -m sfd -i 4 -g sf -d sf
+==23409== 
+Matrícula: sfd 
+ID: 4 
+Gama: sf 
+Dueño: sf 
+Recomendamos el uso de -m/-matricula,-i/-id, -g/-gama, -d/-dueno 
+el concesionario propiedad de sf, tiene 1 y son:
+matricula sfd marca sf id 4
+==23409== 
+==23409== HEAP SUMMARY:
+==23409==     in use at exit: 0 bytes in 0 blocks
+==23409==   total heap usage: 5 allocs, 5 frees, 90 bytes allocated
+==23409== 
+==23409== All heap blocks were freed -- no leaks are possible
+==23409== 
+==23409== For counts of detected and suppressed errors, rerun with: -v
+==23409== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
